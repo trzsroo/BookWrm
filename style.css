@@ -1,0 +1,207 @@
+html {
+    font-family: 'Gentium Book Basic', serif;
+}
+body {
+    background-color: #FFECD1;
+    margin: 0;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 20px;
+    
+}
+
+#first {
+    margin-top: 50px;
+}
+
+table#first  {
+    margin-top: 75px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	top: 0;
+	display: flex;
+	}
+
+li {
+	padding: 0;
+	top: 0;
+}
+
+#welcome {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+  
+#navbar, nav {
+	background-color: #15616D;
+    width: 100%;
+    padding: 0px;
+    text-align: right;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+/* Links inside the navbar */
+#navbar li a, .dropdown, .dropdownbutton {
+	display: block;
+	color: #FFECD1;
+	padding: 14px 10px;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
+
+.dropdownbutton {
+    border: none;
+    background: transparent;
+    font: inherit;
+}
+
+#navbar ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+
+#navbar li, .dropdown {
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+
+a:link, a:visited {
+	color: #0D090A;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF7D00;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: rgba(21, 97, 109, 0.6);
+	z-index: 1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+#navbar a:hover, .dropdown:hover, .dropdownbutton:hover, .dropdown-content a:hover {
+    background-color: #001524;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	text-decoration: none;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#footer, #footer a {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=submit] {
+    background-color: #FF7D00;
+    border-color: #78290F;
+    color: #78290F;
+    font-size: 20px;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+input[type=submit]:hover {
+    background-color: #78290F;
+    border-color: #78290F;
+    color: #FFECD1;
+	font-size: 20px;
+}
+
+table th {
+    background-color: #FF7D00;
+    color: #78290F;
+    text-align: center;
+    font-size: 18px;
+}
+
+#signupPrompt {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+	background-color: rgba(21, 97, 109, 0.6);
+}
+
+table form {
+    margin-top: 5px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+#login, #signUp {
+    margin-bottom: 75px;
+}
+
+p.signUptxt, p.loginTxt {
+    font-size: 16px;
+    text-align: center;
+}
+
+#SideNav li a{
+	display: block;
+    padding: 14px 10px;
+	color: #FFECD1;
+	text-decoration: none;
+	margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
+
+#SideNav li a:hover {
+    color: #15616D;
+}
+
+#SideNav {
+    background-color: rgba(21, 97, 109, 0.5);
+}
+
+#ProfileTable {
+    background-color: rgba(255, 125, 0, 0.2);
+}
